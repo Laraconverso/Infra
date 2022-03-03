@@ -26,6 +26,14 @@ El centro de computos
 </br>
 
 ### _Notas de clase_
+La arquitectura clientr servidor esta compuesta por trees pilares el servidor, middleware y el cliente.
+
+Detallar que hace cada uno
+el Middleware es el que se encarga de hacer todo el proceso de por medio entre el click de un cliente y la respuesta del servidor.
+Por ejemplo una API, dbms. 
+
+--> Actividad en clase en Jamboard [Link](https://jamboard.google.com/d/1YSi-O1wf46oiqJAOVtJmUOmIvHur9i7LiNlk8Eychks/edit?usp=sharing)
+
 
 # Modulo 2
 ## Clase 2:
