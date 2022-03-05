@@ -20,9 +20,6 @@ Con una infraestructura de IT, una empresa puede:
 - Recopilar datos en tiempo real para tomar decisiones rápidas.
 - Mejorar la productividad de los empleados.
 
-El centro de computos
-
-
 </br>
 
 ### _Notas de clase_
@@ -39,7 +36,31 @@ Por ejemplo una API, dbms.
 ## Clase 2:
 ----
 ### _Notas del material_
+
+... </br>
+
 ### _Notas de clase_
+
+Automatizar:
+Beneficios: 
+- Elevar la productividad empresarial.
+- Reducir costos operativos.
+- Disminuir los riegos de fallas.
+- Elevar la seguridad de la informacion.
+- Tener una mejor capacidad de respuesta.
+- Facilidad de adaptacion.
+- Alojar una mayor cantidad de datos.
+- Elevar la competitividad del negocio.
+
+Virtualizacion: evaluar la compatibilidad y los distintos entornos. 
+
+Provisioners y Providers
+
+Interfaz de comandos: https://www.vagrantup.com/docs/cli
+https://app.vagrantup.com/boxes/search
+
+--> actividad de clase crear la maquina virtual debian con vagrant y tambien de forma manual 
+haa
 
 ## Clase 3:
 ----
