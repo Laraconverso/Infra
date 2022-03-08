@@ -68,7 +68,7 @@ haa
 ### <span style="color:purple"> _Notas del material_</span>
 Introduccion a la terminal de linux
 Comandos utiles:</br>
-[LINK](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)a la cheatsheet de los comandos mas usados.</br>
+[LINK ](https://cheatography.com/davechild/cheat-sheets/linux-command-line/)a la cheatsheet de los comandos mas usados.</br>
 ```mkdir dir1``` genera una carpeta con el nombre dado (en este caso dir1).</br>
 ```touch dir1/archivo_1.txt``` crea un archivo en el lugar indicado. </br>
 ```ls -R ``` se listan todos los directorios. </br>
@@ -80,7 +80,13 @@ Comandos utiles:</br>
 `rm dir1/archivo_1.txt` aca se elimina el archivo especifico dentor del dir1.</br>
 `rm -r dir2` con el modificador -r eliminamos el dir2 y todo su contenido.</br>
 `cp ` se pueden copiar archivos y directorios, asi como ubicarlos en otras rutas, definiendo origen primero y luego el destino. </br>
-`mv` 
+`mv` </br>
+`locate ` nos localiza un archivo con el flag `-i` nos busca el archivo independientemente de las mayusculas o minusculas del nombre.</br>
+`find` nos permite decirles que ejecute comandos a parte de buscar el archivo o la carpeta. </br>
+
++++ faltan agregar algunos comandos 
++ La actividad de las mesas se realizo en la maquina virtual. 
+
 
 ### <span style="color:purple;"> _Notas de clase_ </span>
 </br>
