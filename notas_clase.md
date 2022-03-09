@@ -80,13 +80,34 @@ Comandos utiles:</br>
 `rm dir1/archivo_1.txt` aca se elimina el archivo especifico dentor del dir1.</br>
 `rm -r dir2` con el modificador -r eliminamos el dir2 y todo su contenido.</br>
 `cp ` se pueden copiar archivos y directorios, asi como ubicarlos en otras rutas, definiendo origen primero y luego el destino. </br>
-`mv` </br>
+`mv` se usa para mover archivos</br>
 `locate ` nos localiza un archivo con el flag `-i` nos busca el archivo independientemente de las mayusculas o minusculas del nombre.</br>
 `find` nos permite decirles que ejecute comandos a parte de buscar el archivo o la carpeta. </br>
 
 +++ faltan agregar algunos comandos 
 + La actividad de las mesas se realizo en la maquina virtual. 
 
+## <span style="color:violet;">Clase 5</span>
+### <span style="color:purple;"> _Notas del material_</span>
+Shell srcipting
+Bash es una interfaz interprete (que interpreta las ordenes que el usuario le hace al sistema) en la consola de Unix, tambien se pueden realizar a traves de un archivo llamado srcipt. </br>
+bash hereda sh, zsh y csh, es la interfaz determinada actualmente en gnu/linux y macos (unix).
+</br>
+Escribimos en la consola </br>
+... </br>
+Tipos de variables: </br>
+Globales o de entorno</br>
+    El sistema Linux establece algunas varibales de entorno globales cuando inciamos sesion en nuestro sstema y siempre son en LETRAS MAYUSCULAS. Si queremos ver las variables de entorno que estamos usando y que estan cargadas en nuestra sesion, escribimos le comando printenv o env en nuestro shell.</br> 
+    Para declara una variable global se escribe</br>
+    ` export NOMBERVARIABLE=valor ` </br>
+    Para acceder a la misma utilizamos la sentencia `$NOMBREVARIABLE` </br>
+De usuarios o locales</br>
+    Las varibales del tipo usuario o lacl tienen la particularidad que pueden ser accedidas solo por el usuario y la sesion en la que fueron creadas. Una variable local se declara de la forma sencilla:</br>
+    `nombrevariable=valor`</br>
+    Para acceder a la misma utilizamos la sentencia: `$nombrevariable`.  </br>
+
+ --> VER estructuras de control en bash 
+Pruebo en VM. 
 
 ### <span style="color:purple;"> _Notas de clase_ </span>
 </br>
