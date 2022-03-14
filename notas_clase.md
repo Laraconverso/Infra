@@ -88,6 +88,7 @@ Comandos utiles:</br>
 + La actividad de las mesas se realizo en la maquina virtual. 
 
 ## <span style="color:violet;">Clase 5</span>
+---
 ### <span style="color:purple;"> _Notas del material_</span>
 Shell srcipting
 Bash es una interfaz interprete (que interpreta las ordenes que el usuario le hace al sistema) en la consola de Unix, tambien se pueden realizar a traves de un archivo llamado srcipt. </br>
@@ -110,9 +111,65 @@ De usuarios o locales</br>
 Pruebo en VM. 
 
 ### <span style="color:purple;"> _Notas de clase_ </span>
+Hacemos dos scripts llamando a dos apis
 </br>
  
+## <span style="color:violet;">Clase 6</span>
 ----
+### <span style="color:purple"> _Notas del clase_</span>
+Hacemos un script llamando a una api similar al de la clase 5.
+</br>
+
+## <span style="color:violet;">Clase 7</span>
+----
+### <span style="color:purple"> _Notas del material_</span>
+Intro a Powershell</br>
+Comandos `cmdlet` --> retorna una instancia de un objeto.</br>
++ comandos extensibles
++ alias de comandos 
++ se pueden crear nuevos cmdlet
+Powersell se utiliza para:
+- Automatizar
+- Compilar
+- Probar
+- Implementar
+Mas caracterisitcas de poweshell:</br>
+- extensible mediante funciones, clases, scripts y modulos.
+- Sistema de fomrmato extensible para una salida facil.
+- Sistema de tipos extensible para crear tipos dinamicos.
+- Compatibilidad integrada con formatos de datos comunes.
+--> Poweshell es un proyecto de codigo abierto. </br>
+</br>
+Los usos mas comunes de powershell son:</br>
++ Automatizacion de tareas: PowerShell sirve para facilitar a los administradores de sistemas las tareas de automatización, administración y configuración de sistemas. 
++ Configuratio management: Al utilizar PowerShell DSC.</br>
++ Monitoreo: Para escribir scripts que pueden ser utilizados por un software de monitoreo. </br>
++ Testear infraestructura: Las pruebas de infraestructura en Pester son código de PowerShell que ejecuta el módulo Pester PowerShell y se crea de una manera específica, conocida como lenguaje específico de dominio (DSL). Este DSL describe el estado deseado y tiene el código necesario para verificar ese estado y comparar el resultado.<br>
++ Automatización de procesos:Automatizar tareas en un proceso de liberación de software (CI/CD).</br>
+<br>
+Como utilizar un modulo de poweshell???</br>
+1er. Instalar el modulo. </br>
+2do. Buscar los comandos que agrego el modulo.</br>
+3er. Utilizar los comandos que agrego el modulo. </br>
+</br>
+Como encontrar modulos instalados??
+Comandos:
+
+</br>
+
+### <span style="color:purple"> _Notas de clase_</span>
+
+## <span style="color:violet;">Clase 8</span>
+----
+### <span style="color:purple;"> _Notas del material_</span>
+Python:</br>
+Jugue con los operadores de python en el archivo dentro de la carpeta `./C8/play.py `
+</br>
+</br>
+</br>
+</br>
+
+-----
 # <span style="color:lightgreen;">Modulo ..</span>
 ## <span style="color:violet;">Clase ?</span>
 ----
