@@ -158,7 +158,7 @@ Comandos:
 </br>
 
 ### <span style="color:purple"> _Notas de clase_</span>
-
+Utilizamos powershell para resolver lo ejercicios pedidos. 
 ## <span style="color:violet;">Clase 8</span>
 ----
 ### <span style="color:purple;"> _Notas del material_</span>
