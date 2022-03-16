@@ -2,6 +2,7 @@
 
 #encoding:UTF-8
 import random
+import string
 
 while True: 
     aleatorio = random.randrange(0, 5)
@@ -45,29 +46,37 @@ while True:
     print("PC eligio: ", eligePc)
     print("...")
     
-    if eligePc == "piedra" and eligeUsuario == "papel":
-        print("Ganaste, papel envuelve piedra")
-    elif eligePc == "papel" and eligeUsuario == "tijera":
-        print("Ganaste, tijera corta papel")
-    elif eligePc == "tijera" and eligeUsuario == "piedra":
-        print("Ganaste, piedra pisa tijera")
+    if eligePc == "piedra" and (eligeUsuario == "papel" or eligeUsuario == "spock"):
+        print("Ganaste, destruiste a la piedra!")
+    elif eligePc == "papel" and (eligeUsuario == "tijera" or eligeUsuario == "lagarto"):
+        print("Ganaste, cortaste el papel")
+    elif eligePc == "tijera" and (eligeUsuario == "piedra" or eligeUsuario == "spock"):
+        print("Ganaste, la tijera se rompio")
+    elif eligePc == "lagarto" and (eligeUsuario == "tijera" or eligeUsuario == "piedra"):
+        print("Ganaste, el lagarto murio ;-;")
+    elif eligePc == "spock" and (eligeUsuario == "papel" or eligeUsuario == "lagarto"):
+        print("Ganaste, spock no tiene poder aqui.")
+
+    if eligeUsuario == "piedra" and (eligePc == "papel" or eligePc == "spock"):
+        print("Perdiste")
+    elif eligeUsuario == "papel" and (eligePc == "tijera" or eligePc =="lagarto"):
+        print("Perdiste")
+    elif eligeUsuario == "tijera" and (eligePc == "piedra" or eligePc == "spock"):
+        print("Perdiste")
+    elif eligeUsuario == "lagarto" and (eligePc == "tijera" or eligePc =="piedra"):
+        print("Perdiste")
+    elif eligeUsuario == "spock" and (eligePc == "papel" or eligePc == "lagarto"):
+        print("Perdiste")
     
-
-    if eligeUsuario == "piedra" and eligePc == "papel":
-        print("Perdiste, papel envuelve piedra")
-    elif eligeUsuario == "papel" and eligePc == "tijera":
-        print("Perdiste, tijera corta papel")
-    elif eligeUsuario == "tijera" and eligePc == "piedra":
-        print("Perdiste, piedra pisa tijera")
     
-
-
     elif eligePc == eligeUsuario:
         print("Empate")
+    si = 'si'
+    no = 'no'
     again = input("Jugamos de nuevo? si/no: ")
-    if 'si' in again:
+    if si == again:
         continue
-    elif 'no' in again:
+    elif no == again:
         print("Nos vemos!")
         break
     else:
