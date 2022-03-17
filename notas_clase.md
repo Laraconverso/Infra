@@ -165,6 +165,11 @@ Utilizamos powershell para resolver lo ejercicios pedidos.
 Python:</br>
 Jugue con los operadores de python en el archivo dentro de la carpeta `./C8/play.py `
 </br>
+
+### <span style="color:purple;"> _Notas de clase_ </span>
+Volvemos a ver powershell</br>
+comando de ejecucion: </br>
+
 </br>
 </br>
 </br>
