@@ -305,3 +305,37 @@ Vagrant.configure("2") do | config|
   fin
 fin 
 ```
+
+
+>## Preguntas por tema
+
+#### ¿A que nos referimos con infraestructura?
+Se refiere a los componentes combinados necesarios para el funcionamiento y la gestión de los servicios de IT de la empresa y los entornos de IT.
+
+#### ¿Que funciones ejerce un analista de infra?
+-	Administrar servidores, software de base, comunicaciones y otros subsistemas. Maximiza el aprovechamiento de los recursos anticipando posibles eventualidades.
+-	Administrar redes de comunicación de datos, optimizando los recursos y asegurando la accesibilidad a los servicios.
+-	Atender incidentes que afecten al soporte de infraestructura de IT. Diagnosticar las causas y resolverlos o coordinar la misma.
+-	Instalar o reemplazar componentes de soporte de infraestructura de IT o adaptarla a nuevas condiciones de servicios externos minimizando riesgos para la seguridad y continuidad del servicio.
+-	Migrar o convertir sistemas, aplicaciones o datos tratando de minimizar riesgos para la seguridad y continuidad del servicio.
+-	Entender temas de contingencias y riesgos que puedan afectar al soporte de infraestructura de IT.
+-	Generar propuestas innovadoras y/o emprendimientos productivos propios del ámbito de la gestión de soporte de infraestructura IT.
+
+#### ¿Que hacen los administradores de red/administrador de sistemas?
+Estas personas se desempeñan en centros de procesamiento de datos. Su objetivo es el de minimizar la posibilidad de interrupciones al servicio que brindan las aplicaciones informativas a las organizaciones.
+
+#### ¿Por qué es importante la infraestructura de IT?
+La tecnología es el motor de prácticamente todos los aspectos de las empresas actuales. Se conecta correctamente, la tecnología se puede optimizar para mejorar las comunicaciones, crear eficiencia y aumentar la productividad.
+
+#### Definir arquitectura cliente-servidor
+La arquitectura cliente-servidor persigue el objetivo de procesar la información de un modo distribuido. De esta forma, pueden estar dispersos en distintos lugares y acceder a recursos compartidos.
+
+#### Componentes de la arguitectura cliente-servidor y que es/hace c/u
+Componentes de la arquitectura:
+- Servidor: Un servidor es un ordenador, pero con prestaciones elevadas. Un servidor es un proceso que ofrece recursos y servicios a los clientes que lo solicitan (back end). Según el tipo de servidor, tendremos un tipo de arquitectura cliente-servidor diferente. Debido a que los programas y datos se encuentran centralizados, se facilita la integridad y el mantenimiento
+-	Middleware: Es la parte del software del sistema que se encarga del transporte de los mensajes entre el cliente y el servidor y facilita la interconexión de sistemas heterogéneos sin utilizar tecnologías propietarias, se ejecuta en ambos lados de la estructura. Permite independizar a los clientes y a los servidores. Además, ofrece mas control sobre el negocio ya que permite obtener información desde diferentes orígenes y ofrecerla de manera conjunta. Los sistemas están débilmente acoplados ya que interactúan mediante el envío de mensajes
+- Cliente: De manera genérica, se puede decir que es una computadora corriente. En entornos cliente-servidor, se utiliza el termino front end, ya que es un proceso que solicita los servicios del servidor a través de una petición del usuario. Un proceso cliente se encarga de interactuar con el usuario, por lo que estará construido con alguna herramienta que permita implementar interfaces graficas
+
+#### Cuales son los tipos de middleware existentes?
+- DBMS: Un sistema de administración de bases de datos que permiten crear, recuperar, actualizar y borrar datos
+-	API: Interfaz de programación de aplicaciones. Brindan un conjunto de subrutinas, funciones y procedimientos para ser utilizados en otro software
