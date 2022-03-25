@@ -3,10 +3,13 @@ Preguntas tipo parcial:
 Preguntas Ansible:
 
 ### ¿Que es un playbook?
+Son archivos escritos en YAML, esto archivos son la descripción del estado deseado de los sistemas que vamos a configurar. 
 
 ### ¿Para que sirve un playbook?
+Los playbooks hacen que las nuevas instalaciones, actualizaciones y la administración del día a día sea repetible, predecible y confiable.
 
 ### ¿Que es idempotencia? Ejemplos
+Cada módulo es independiente (no debería tener dependencia de otros módulos) y se lo puede escribir en cualquiera de los lenguajes de scripting standard de mercado (Python, Perl, Ruby, Bash, etc.). Uno de los principios de diseño de los módulos es la idempotencia. -- Service, file, copy, iptables, entre otros. --
 
 ### ¿Donde se cargan los servidores a donde estamos cargando nuestras configuraciones?
 Inventarios
@@ -18,6 +21,7 @@ Host.
 Al principio del hamble(que era eso?) del host
 
 ### ¿Para que sirve ansible?
+Se trata de un software de gestión de la configuración automática y remota, que nos permite centralizar la configuración de numerosos servidores, dispositivos de red y cloud providers de una forma sencilla y automatizada.
 
 ### ¿Que tipos de perfiles usan ansible?
 <img src="./fotos_teoria/ansible2.png">
@@ -25,7 +29,8 @@ Al principio del hamble(que era eso?) del host
 ### ¿En que se escriben los playbooks? 
 YAML
 
-### SSH(?)
+### ¿Para que utiliza SSH ansible?
+Usa SSH para conectarse a los servidores y ejecutar las tareas de configuración. Ansible nos permite controlar y configurar nodos desde un servidor central.
 
 ### ¿Para que sirve el comando ansile all -m ping?
 Agarra todos los grupos de servidores que tenemos seteados en el host (inventario) y usa ping.  
