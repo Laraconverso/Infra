@@ -308,8 +308,63 @@ OBS.: server.vm.provider = refiere al provider que voy a usar de virtualización
 
 server.vm.provision = es la parte donde configuro qué cosas quiero ejecutar en mi máquina virtual, los scripts que quiero que se ejecuten. 
 
+### Beneficios de automatizar 
+Reucir el margen de error, ahorrar costos y gestionar las operaciones en IT.
 
-### 
+### Cuales son los beneficios de la Virtualizacion?
+Simplifican la gestion de infra. Permiten reducir costo y el escalamiento.
+
+### Componentes de un sistema de virtualizacion
+Hardware, S.O.(base), Admin de Maquinas Virtuales, VMs
+
+### que hace `su root`?
+Me permite cambiar de usuario e ingresar como el root del sistema
+
+### que hace  `apt-get`? 
+- apt -- Es un gestor de paquetes 
+- get -- obtengo el paquete buscado
+
+### Tipos de consolas en Distros de Linux
+- Bourne Shell(sh)
+- Korn Shell(ksh)
+- C shell (csh)
+
+### que funcion nos permite tomar la salida de un programa como entrada del otro
+`Pipeline`
+
+### Comandos utiles de linux
+- `cURL`
+- `jq`
+- `mv`
+- `cp`
+- `touch`
+- `echo`
+
+### El comando cat sirve para visualizar el contenido de un archivo
+TRUE.
+
+### El comando chmod me permite cambiar el ownership de un archivo?
+FALSO, me permite cambiar el modo (a ejecutable ponele)
+
+### Bahs es un interprete de lenguaje de comandos
+True</br>
+OBS.: en el scrip se debe declarar en la primer linea `#!/bin/bash` (el shebang).
+
+### El comando cURL se usa comunmente para hacer llamadas a APis
+TRUE
+
+### Powershell Core es como una evolucion de Powershell. El primerso esta disponible como una app multiplataforma
+FALSO.
+
+### Cual es la extension de un archivo basico en pws?
+`.ps1`
+
+### Tipos de consolas con las que interactuamos:
+- CMD
+- WSL (ponele)
+- Bash
+- Powershell
+- Python
 
 ---------
 >## Preguntas por tema
