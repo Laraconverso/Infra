@@ -1,42 +1,5 @@
 Preguntas tipo parcial:
 
-## Preguntas Ansible:
-
-### ¿Que es un playbook?
-Son archivos escritos en YAML, esto archivos son la descripción del estado deseado de los sistemas que vamos a configurar. 
-
-### ¿Para que sirve un playbook?
-Los playbooks hacen que las nuevas instalaciones, actualizaciones y la administración del día a día sea repetible, predecible y confiable.
-
-### ¿Que es idempotencia? Ejemplos
-Cada módulo es independiente (no debería tener dependencia de otros módulos) y se lo puede escribir en cualquiera de los lenguajes de scripting standard de mercado (Python, Perl, Ruby, Bash, etc.). Uno de los principios de diseño de los módulos es la idempotencia. -- Service, file, copy, iptables, entre otros. --
-
-### ¿Donde se cargan los servidores a donde estamos cargando nuestras configuraciones?
-Inventarios
-
-### ¿Donde se encuentra alojada el file del inventario? 
-Host.
-
-### ¿Donde declaro a que va a estar siendo apuntada la configuracion?
-Al principio del hamble(que era eso?) del host
-
-### ¿Para que sirve ansible?
-Se trata de un software de gestión de la configuración automática y remota, que nos permite centralizar la configuración de numerosos servidores, dispositivos de red y cloud providers de una forma sencilla y automatizada.
-
-### ¿Que tipos de perfiles usan ansible?
-<img src="./fotos_teoria/ansible2.png">
-
-### ¿En que se escriben los playbooks? 
-YAML
-
-### ¿Para que utiliza SSH ansible?
-Usa SSH para conectarse a los servidores y ejecutar las tareas de configuración. Ansible nos permite controlar y configurar nodos desde un servidor central.
-
-### ¿Para que sirve el comando ansile all -m ping?
-Agarra todos los grupos de servidores que tenemos seteados en el host (inventario) y usa ping.  
-
----- + preguntas gral + -----
-
 ### ¿Cuales son las tareas de automatización?
 Tareas de Automatización
 - Aprovisionamiento de las áreas de TI: automatiza el proceso para habilitar maquinas a través de un levantamiento de servicios para el personal nuevo de nuestra organización.
@@ -318,8 +281,37 @@ Vagrant.configure("2") do | config|
   fin
 fin 
 ```
+--------- 
+
+## Preguntas Kahoot y Menti
+
+### Pilares de la infraestructura:
+- Network Managment
+- SRE
+- Server Managment
+
+### Que es la infra en sistemas?
+Refiere a alos componentes combinados necesarios par ael funcionamiento y la gestion de los servidores de IT.
+
+### Cual de estas opciones es la tarea de un analista de infraestructura?
+- (SI) Migrar servidores on-premises a al nube de AWS (SI)
+- (NO) Desarrollar una app en Node JS.
+- (NO) Generar documentaicon de una nueva version de software.
+
+### En el modielo de Arquitectura Cliente-Servidor que sistemagestion al solicitud y la procesa?
+MiddleWare
+
+### Como configuro con Vagrant si quiero instalar varias herramientas de manera automatizada en la creacion de la vm?
+server.vm.provision
+
+OBS.: server.vm.provider = refiere al provider que voy a usar de virtualización, si voy a usar Hyper- V, Docker, VirtualBox, para lanzar mi máquina. 
+
+server.vm.provision = es la parte donde configuro qué cosas quiero ejecutar en mi máquina virtual, los scripts que quiero que se ejecuten. 
 
 
+### 
+
+---------
 >## Preguntas por tema
 
 ### ¿A que nos referimos con infraestructura?
@@ -370,3 +362,40 @@ Este es un conjunto de programas que se encarga de administrar los recursos fís
 Windows: 75% y Unix: 25% (unix incluye GNU, FreeBSD y MACOS server)
 
 ### En que consiste la automatizacion? 
+
+
+
+## Ansible:
+
+### ¿Que es un playbook?
+Son archivos escritos en YAML, esto archivos son la descripción del estado deseado de los sistemas que vamos a configurar. 
+
+### ¿Para que sirve un playbook?
+Los playbooks hacen que las nuevas instalaciones, actualizaciones y la administración del día a día sea repetible, predecible y confiable.
+
+### ¿Que es idempotencia? Ejemplos
+Cada módulo es independiente (no debería tener dependencia de otros módulos) y se lo puede escribir en cualquiera de los lenguajes de scripting standard de mercado (Python, Perl, Ruby, Bash, etc.). Uno de los principios de diseño de los módulos es la idempotencia. -- Service, file, copy, iptables, entre otros. --
+
+### ¿Donde se cargan los servidores a donde estamos cargando nuestras configuraciones?
+Inventarios
+
+### ¿Donde se encuentra alojada el file del inventario? 
+Host.
+
+### ¿Donde declaro a que va a estar siendo apuntada la configuracion?
+Al principio del hamble(que era eso?) del host
+
+### ¿Para que sirve ansible?
+Se trata de un software de gestión de la configuración automática y remota, que nos permite centralizar la configuración de numerosos servidores, dispositivos de red y cloud providers de una forma sencilla y automatizada.
+
+### ¿Que tipos de perfiles usan ansible?
+<img src="./fotos_teoria/ansible2.png">
+
+### ¿En que se escriben los playbooks? 
+YAML
+
+### ¿Para que utiliza SSH ansible?
+Usa SSH para conectarse a los servidores y ejecutar las tareas de configuración. Ansible nos permite controlar y configurar nodos desde un servidor central.
+
+### ¿Para que sirve el comando ansile all -m ping?
+Agarra todos los grupos de servidores que tenemos seteados en el host (inventario) y usa ping.  
