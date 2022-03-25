@@ -1,6 +1,6 @@
 Preguntas tipo parcial:
 
-Preguntas Ansible:
+## Preguntas Ansible:
 
 ### ¿Que es un playbook?
 Son archivos escritos en YAML, esto archivos son la descripción del estado deseado de los sistemas que vamos a configurar. 
@@ -105,8 +105,10 @@ Core (NO)
 - 75% Linux y 25% Windows. (Recordar que en elgrupo de los UNIX (o UNIX-like) tenemos a: GNU Linux, FreeBSD, macOsServer...)
 
 ### Arquitectura cliente – servidor: 
+<img src="./fotos_teoria/c-s-ph.png"></br>
 
-### función del middleware.
+### Función del middleware.
+Se encarga del transporte de los mensajes entre el cliente y el servidor
 
 ### Dentro de los middleware tenemos a los:
 API , DBMS
@@ -132,8 +134,12 @@ La posibilidad de seguir operando ante los fallos y la posibilidad de que otro s
 Linux, Windows
 
 ### ¿qué es ITIL? 
+ITIL describe la gestión de cambios como el proceso de controlar y gestionar un cambio a lo largo de todo su ciclo de vida con el objetivo de minimizar riesgos.
 
-### ¿Qué es Configuration management y changemanagement?
+
+### ¿Qué es Configuration management y change management?
+- Configuration management es el proceso que permite gestionar los cambios de configuración de nuestros activos informáticos, permitiendo a la organización mantener un registro histórico y a su vez aplicar controles.
+- Un cambio es la modificación o eliminación de cualquier cosa que pueda afectar directa o indirectamente a los servicios.
 
 ### ¿En qué run level inicia la consola de Linux? 
 - Nivel 1.
@@ -176,9 +182,16 @@ Linux, FreeBSD, MacOsServer).
 
 
 ### Explicar CON SUS PALABRAS alguna de las tareas más comunes para automatizar en TI. Ejemplifique
-
+Las 5 tareas más comunes en IT para automatizar
+-	Aprovisionamiento de las áreas de IT: Automatizar el proceso para habilitar maquinas a través de un levantamiento de servicio para el personal nuevo de nuestra organización
+-	Gestión de configuración: Ahorra tiempo y trabajo al automatizar la configuración de las maquinas que se habilitan de acuerdo con los objetivos que tenga el área de IT
+-	Seguridad y cumplimiento: Estable acciones de políticas de seguridad y cumplimiento automatizables en la gestión de las maquinas
+-	Organización de la nube: Asegura la información y mantiene la disponibilidad de ella a través de la automatización para generar mayor eficiencia 
+-	Implementar acciones: Algunas aplicaciones requieren instalarse o configurarse, esta tarea puede ser automatizada
 
 ### Explique CON SUS PALABRAS porque es importante gestionar a la infraestructura como GANADO y no como MASCOTAS.
+Se dice que, en los procesos tradicionales, cada servidor es administrado de manera individual y se convierte en una mascota, con un trato personalizado.
+En los procesos modernos de administración de servidores, los mismos se administran en conjunto, con una mirada mas industrial y abarcativa del parque tecnológico. Se adopta un enfoque que nos permite implementar soluciones rápidas y reemplazar componentes fallidos en lugar de invertir tiempo en intentar resolver problemas complejos. Similar a como sucede en la ganadería.
 
 
 ### Corregir el Vargantfile Debo instanciar una maquina virtual con las siguientes características: 4 GB de RAM, SIN Interfaz gráfica, Sistema Operativo Debian(cualquier version) y conectado a la red publica. Nuestro Vagrantfile base esta en: https://github.com/repoinfradh/deploy_app/blob/main/VagrantfileTwo
