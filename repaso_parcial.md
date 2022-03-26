@@ -18,6 +18,7 @@ Aplicación que nos sirve para monitorear laconexión de red (analizar trafico d
 - `su` (cambiar de usuario)
 - `rmdir ` elimina un directorio. 
 - `ls` enlista los elementos en el directorio en el que nos econtramos parados
+- `rm` eliminar archivos 
 
 ### Bash se puede usar para...
 Automatización de tareas administrativas y Automatización de procesos

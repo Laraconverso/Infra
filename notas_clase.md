@@ -76,7 +76,7 @@ Comandos utiles:</br>
 ``ls -a `` enlista todo el contenido dentro del directorio incluyendo elementos que se encuentren ocultos.</br>
 `ls -l` enlista el contenido e incluye informacion referente a cada elemento.</br>
 `rmdir ` elimina un directorio. </br>
-`rm ` elimina archivos suueltos. </br>
+`rm ` elimina archivos sueltos. </br>
 `rm dir1/archivo_1.txt` aca se elimina el archivo especifico dentor del dir1.</br>
 `rm -r dir2` con el modificador -r eliminamos el dir2 y todo su contenido.</br>
 `cp ` se pueden copiar archivos y directorios, asi como ubicarlos en otras rutas, definiendo origen primero y luego el destino. </br>
