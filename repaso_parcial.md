@@ -214,6 +214,20 @@ Vagrant.configure("2") do |config|
   end
 end
 ```
+```
+Vagrant.configure("2") do |config|
+  config.vm.define "server" do |server| 
+  config.vm.box = "ubuntu/trusty64" --> sistema operativo
+  server.vm.hostname = "Lura<3" --> se puede cambiar el nombre
+  server.vm.network "public_network" --> conectado a la red publica 
+  end
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "2048" --> RAM 1GB = 1024 ; x----- x.1024
+    vb.gui = true --> interfaz grafica 
+  end
+end
+```
+distros --> [https://app.vagrantup.com/boxes/search](https://app.vagrantup.com/boxes/search)
 SOLUCION
 ```
 # -*- mode: ruby -*-
