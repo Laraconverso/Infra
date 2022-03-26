@@ -283,6 +283,9 @@ fin
 ```
 --------- 
 
+### Pregunta de bash 
+<img src="./fotos_teoria/bash.jpg">
+
 ## Preguntas Kahoot y Menti
 
 ### Pilares de la infraestructura:
@@ -345,6 +348,9 @@ TRUE.
 
 ### El comando chmod me permite cambiar el ownership de un archivo?
 FALSO, me permite cambiar el modo (a ejecutable ponele)
+
+### Cual es la sentencia en linux para hacer un script ejecutable 
+`chmod +x nombre_archivo.sh`
 
 ### Bahs es un interprete de lenguaje de comandos
 True</br>
