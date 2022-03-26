@@ -53,10 +53,10 @@ Un lenguaje de scripting que viene con una consola multiplataforma integrada cua
 - Es un servidor web. Nos permite alojar páginas web en internet.
 
 ### ¿Cuáles de todas estas tecnologías no es un Hypervisor de Virtualización?
-X VmWare (NO)
-:) Apache (SI)
-:) Vagrant (SI)
-X VirtualBox(NO)
+X VmWare (NO)</br>
+:) Apache (SI)</br>
+:) Vagrant (SI)</br>
+X VirtualBox(NO)</br>
 
 ### ¿ Cuáles de los siguientes elementos forman parte del sistema operativo ?
 Nucleo (SI)
