@@ -214,6 +214,7 @@ Vagrant.configure("2") do |config|
   end
 end
 ```
+hacemos uno en la mesa
 ```
 Vagrant.configure("2") do |config|
   config.vm.define "server" do |server| 
