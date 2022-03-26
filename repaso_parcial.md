@@ -37,7 +37,7 @@ Para elevar privilegios (convertirte en dios linux)
 Automatización de procesos, Configuration Managment, Automatización de tareas
 
 ### PowerShell Core es...
-Un lenguaje de scripting que viene con una consola multiplataforma integrada cuando se instala (en windows y capaz linux 'H'.)
+Un lenguaje de scripting que viene con una consola multiplataforma integrada cuando se instala.
 
 ### Comandos Powershell: 
 - NO Invoke.
