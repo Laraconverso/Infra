@@ -143,7 +143,7 @@ ejemplo Debian y Ubuntu) y otras versiones para uso como servidores (por ejemplo
 Linux, FreeBSD, MacOsServer).
 
 ### Explique CON SUS PALABRAS la arquitectura CLIENTE - SERVIDOR
-
+La arquitectura cliente-servidor persigue el objetivo de procesar la información de un modo distribuido. De esta forma, pueden estar dispersos en distintos lugares y acceder a recursos compartidos. 
 
 ### Explicar CON SUS PALABRAS alguna de las tareas más comunes para automatizar en TI. Ejemplifique
 Las 5 tareas más comunes en IT para automatizar
