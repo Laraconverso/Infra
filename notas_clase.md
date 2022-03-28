@@ -309,11 +309,45 @@ La profe trabajo sobre el contenido de playground e intento hacer el ej del play
 ## <span style="color:violet;">Clase 12</span>
 ### Evaluacion. 
 
+
 ---
+
+# <span style="color:lightgreen;">Modulo 2</span>
 ## <span style="color:violet;">Clase 13</span>
 ----
 ### <span style="color:purple;"> _Notas del material_</span>
+Docker en profundidad:</br>
+Containers: </br>
+Entrornos fisicos: 
+- 
+Entornos virtuales:
+- 
+MIX (virtuales y fisicos):
+- algo
+Que es Docker?</br>
 
-... </br>
+</br>
+Vocabulario de Docker</br>
+Te dejamos algunos conceptos que serán importantes que reconozcas para que te familiarices con ellos:
+
+- Host: una máquina virtual que ejecuta Docker daemon para alojar una colección de contenedores Docker.
++ Cliente: aquí se ejecutan los comandos que están siendo ejecutados. (cliente-servidor).
++ Imagen: una colección ordenada de sistemas de archivos (capas) que se utilizarán al crear una instancia de un contenedor.
++ Contenedor: una instancia en tiempo de ejecución de una imagen.
++ Registro: una colección de imágenes de Docker.
+
+Que es un Dockerfile?
 
 ### <span style="color:purple;"> _Notas de clase_ </span>
+Hacemos un ej en Docker.
+
+
+## <span style="color:violet;">Clase 14</span>
+----
+### <span style="color:purple;"> _Notas del material_</span>
+Ecosistema Docker:
+### <span style="color:purple;"> _Notas de clase_ </span>
+
+## <span style="color:violet;">Clase 15</span>
+----
+Fin de Semana.
