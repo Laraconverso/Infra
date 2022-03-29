@@ -345,7 +345,8 @@ Hacemos un ej en Docker.
 ## <span style="color:violet;">Clase 14</span>
 ----
 ### <span style="color:purple;"> _Notas del material_</span>
-Ecosistema Docker:
+Ecosistema Docker:</br>
+Docker HUb --> repo de imagenes/ templates con los que puedo contruir contenedores que va a correr o ejecutarse en un segundo plano. </br>
 ### <span style="color:purple;"> _Notas de clase_ </span>
 
 ## <span style="color:violet;">Clase 15</span>
