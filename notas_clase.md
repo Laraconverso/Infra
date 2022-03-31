@@ -339,7 +339,7 @@ Te dejamos algunos conceptos que serán importantes que reconozcas para que te f
 Que es un Dockerfile?
 
 ### <span style="color:purple;"> _Notas de clase_ </span>
-Hacemos un ej en Docker.
+Hacemos un ej en Docker hub.
 
 
 ## <span style="color:violet;">Clase 14</span>
@@ -348,6 +348,29 @@ Hacemos un ej en Docker.
 Ecosistema Docker:</br>
 Docker HUb --> repo de imagenes/ templates con los que puedo contruir contenedores que va a correr o ejecutarse en un segundo plano. </br>
 ### <span style="color:purple;"> _Notas de clase_ </span>
+`docker ps` todos los activos
+`docker ps -a` enlistar todos los contenedores activos
+`docker images`
+`docker build`
+`docker run`
+`docker images`
+`docker pull` para obtener una img
+`docker push` para pushear el archivo/la img 
+Docker hub --> repo de imagenes.</br>
+Estructura del Docker file
+```Dockerfile
+FROM --> define la img de base que utilizara
+MANTEINER --> desarrollador que mantiene la img
+RUN --> se utiliza para ejecutar
+CMD --> se utiliza para ejecutar una vez que se ha lanzado el instalador
+COPY --> copiar archivos del S.O local al contenedor de la ventana acoplable.
+EXPOSE --> se utiliza para especificar el numero de puerto en el que el contendedor ejecutara su proceso.
+WORKDIR --> el directorio donde voy a trabajar
+```
+Existen 5 tipos de drivers para el manejo de redes</br>
+
+`docker network ls` --> muestra las redes seteadas actualmente
+`doceker network inspect bridge(nombre de la networ)` --> Nos devuelve un json con toda la info.
 
 ## <span style="color:violet;">Clase 15</span>
 ----
