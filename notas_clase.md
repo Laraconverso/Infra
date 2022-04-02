@@ -348,7 +348,7 @@ Hacemos un ej en Docker hub.
 Ecosistema Docker:</br>
 Docker HUb --> repo de imagenes/ templates con los que puedo contruir contenedores que va a correr o ejecutarse en un segundo plano. </br>
 ### <span style="color:purple;"> _Notas de clase_ </span>
-`docker ps` todos los activos
+`docker ps` todos los archivos
 `docker ps -a` enlistar todos los contenedores activos
 `docker images`
 `docker build`
@@ -370,8 +370,23 @@ WORKDIR --> el directorio donde voy a trabajar
 Existen 5 tipos de drivers para el manejo de redes</br>
 
 `docker network ls` --> muestra las redes seteadas actualmente
-`doceker network inspect bridge(nombre de la networ)` --> Nos devuelve un json con toda la info.
+`doceker network inspect bridge(nombre de la network)` --> Nos devuelve un json con toda la info.
 
 ## <span style="color:violet;">Clase 15</span>
 ----
 Fin de Semana.
+
+`docker exec -it` -->
+`docker ps` muestra la imagen que esta corriendo actualmente
+`docker stop` --> detiene la imagen desde el id o nombre del container
+`docker start` --> reinicia/ inicializa el contenedor
+`docker run` --> corre por primera vez un contenedor
+`docker run -d ubuntu bash` --> corre por detras sin entrar a la consola  
+`docker network create public`
+`docker network create internal --internal`
+`docker inspect public`
+`docker build`
+`docker network ls`
+`docker network rm`
+`docker- compose.yaml`
+
