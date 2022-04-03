@@ -390,3 +390,8 @@ Fin de Semana.
 `docker network rm`
 `docker- compose.yaml`
 
+## <span style="color:violet;">Clase 16</span>
+----
+### <span style="color:purple;"> _Notas del material_</span>
+
+### <span style="color:purple;"> _Notas de clase_ </span>
