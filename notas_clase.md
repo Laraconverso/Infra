@@ -312,7 +312,7 @@ La profe trabajo sobre el contenido de playground e intento hacer el ej del play
 
 ---
 
-# <span style="color:lightgreen;">Modulo 2</span>
+# <span style="color:lightgreen;">Modulo 3</span>
 ## <span style="color:violet;">Clase 13</span>
 ----
 ### <span style="color:purple;"> _Notas del material_</span>
@@ -390,6 +390,8 @@ Fin de Semana.
 `docker network rm`
 `docker- compose.yaml`
 
+# <span style="color:lightgreen;">Modulo 4</span>
+
 ## <span style="color:violet;">Clase 16</span>
 ----
 ### <span style="color:purple;"> _Notas del material_</span>
@@ -397,3 +399,64 @@ Fin de Semana.
 ### <span style="color:purple;"> _Notas de clase_ </span>
 AWS--> lambda functions un servicio que tiene funciones serverless</br>
 
+## <span style="color:violet;">Clase 17</span>
+----
+### <span style="color:purple;"> _Notas del material_</span>
+
+### <span style="color:purple;"> _Notas de clase_ </span>
+
+## <span style="color:violet;">Clase 18</span>
+----
+### <span style="color:purple;"> _Notas del material_</span>
+
+### <span style="color:purple;"> _Notas de clase_ </span>
+
+## <span style="color:violet;">Clase 19</span>
+----
+### <span style="color:purple;"> _Notas del material_</span>
+Una VPC es una manera de reservar un pedacito del centro de cómputos de AWS para
+ejecutar nuestras instancias de IaaS. Esto, por supuesto, de manera virtual. Una
+buena manera de pensar las VPCs es como una red, a la que nuestras instancias
+estarán conectadas. Las hay de distintos tipos:
+- VPC con una única subnet pública (nosotros vamos a utilizar este tipo!)
+- VPC con una subnet pública y una subnet privada
+- VPC con subnets públicas y privadas, y acceso por VPN via hardware
+- VPC con subnets privadas, y acceso por VPN via hardware
+
+Por que usar una VPC?
+- Seguridad
+- Control de datos
+- Rendimiento
+- Flexibilidad bajo demanda
+
+
+| Escalabilidad                                                                                                                                                | Elasticidad                                                                                                                                                    |
+|--------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Capacidad de un sistema para aumentar la carga de trabajo en sus recursos de hardware actuales (escalar).                                                    | Capacidad de un sistema para aumentar la carga de trabajo en sus recursos de hardware actuales y adicionales —agregados dinámicamente bajo demanda— (escalar). |
+| Aumento de la capacidad para cumplir con la carga de trabajo creciente.                                                                                      | Aumento o reducción de la capacidad para cumplir con la carga de trabajo.                                                                                      |
+| En un entorno de escala, los recursos disponibles pueden exceder para satisfacer las demandas futuras.                                                       | En el entorno elástico, los recursos disponibles coinciden con las demandas actuales lo más cerca posible.                                                     |
+| La escalabilidad se adapta solo al aumento de la carga de trabajo al aprovisionar los recursos de manera incremental.                                        | La elasticidad se adapta tanto al aumento de la carga de trabajo como a la disminución, al aprovisionar y desaprovisionar recursos de manera autónoma.         |
+| El aumento de la carga de trabajo sirve para aumentar el poder de un solo recurso informático o para aumentar el poder de un grupo de recursos informáticos. | La carga de trabajo variable se sirve con variaciones dinámicas en el uso de los recursos de la computadora.                                                   |
+| La escalabilidad permite a una empresa satisfacer las demandas esperadas de servicios con necesidades estratigicas a largo plazo.                            | Elasticidad permite a una empresa satisfacer cambios inesperados en la demanda de servicios con necesidades  tacticas a corto plazo.                           |
+| Está aumentando la capacidad de servir a un entorno donde la carga de trabajo está aumentando.                                                               | Es la capacidad de aumentar o disminuir la capacidad de servir a voluntad.                                                                                     |
+</br>
+
+
+### <span style="color:purple;"> _Notas de clase_ </span>
+
+## <span style="color:violet;">Clase 20</span>
+----
+### <span style="color:purple;"> _Notas del material_</span>
+Load balancer</br>
+Un load balancer (balanceador de carga) es un sistema muy utilizado cuando se tiene que atender mucho tráfico en una aplicación o sitio web. Básicamente, consiste en crear un grupo de servidores que se encarga de atender las solicitudes que recibe un servicio, como una página web, servidores de correo electrónico, web service, etc. </br>
+En otras palabras sirve para distribuir la carga de trabajo entre distintos servidores o aplicaciones. Opitmiza el rendimiento, la capacidad y las prestaciones globales. 
+</br>
+<img src="./fotos_teoria/load-balancer.png" alt="teoria-beneficios-loadbalancer">
+
+### <span style="color:purple;"> _Notas de clase_ </span>
+
+## <span style="color:violet;">Clase 21</span>
+----
+### <span style="color:purple;"> _Notas del material_</span>
+
+### <span style="color:purple;"> _Notas de clase_ </span>
