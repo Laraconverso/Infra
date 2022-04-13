@@ -443,6 +443,9 @@ Por que usar una VPC?
 
 
 ### <span style="color:purple;"> _Notas de clase_ </span>
+Interpretamos que AWS son edificios con un monton de pisoss de servicios e infraestructura. </br>
+
+
 
 ## <span style="color:violet;">Clase 20</span>
 ----
@@ -454,6 +457,7 @@ En otras palabras sirve para distribuir la carga de trabajo entre distintos serv
 <img src="./fotos_teoria/load-balancer.png" alt="teoria-beneficios-loadbalancer">
 
 ### <span style="color:purple;"> _Notas de clase_ </span>
+Trabajamos en AWS con load balancers, TCP y EC2
 
 ## <span style="color:violet;">Clase 21</span>
 ----
