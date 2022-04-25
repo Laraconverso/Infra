@@ -480,18 +480,18 @@ Rendir FINAL
 Criptografia:</br>
 Tipos de algorimos criptograficos:
 - Transposicion: divide un msj, lo cifra en columnas y luego lo transcribe usando un nuevo orden de los caracteres dado por esas columnas. La cantidad de columnas es la clave que se utilizara para codificar y decodificar el mesnaje. 
-- Sustitucion: 
-- Ocultacion:
-- Esteganografia:
+- Sustitucion: se produce un mensaje cifrado a aprti del reemplazo de los caracteres de un mensaje por otros. La clave establece las regalas para el reemplazo. [ej. cifrado por desplazamiento].
+- Ocultacion: Esconder un mensaje dentro de otro msj u objeto. La clave en este caso son las indicaciones que permiten al individuo encontrar el msj. 
+- Esteganografia: es una forma de ocultacion, que consiste en esconder un msj dentro de un archivo de datos (img, audio) sin alterar el contenido original del archivo.
+Para que usamos la criptografia?</br>
+- Generar Confidencialidad: Datos en transito con criptografia simetrica y asimetrica. 
+- Validar integridad: gralmente se usan hash. 
+- Mecanismo de autenticacion.
+
 
 
 ## <span style="color:violet;">Clase 26</span>
 ----
 ### <span style="color:purple;"> _Notas del material_</span>
-COMPLETAR
+ITSM
 
-
-## <span style="color:violet;">Clase 27</span>
-----
-### <span style="color:purple;"> _Notas del material_</span>
-COMPLETAR
