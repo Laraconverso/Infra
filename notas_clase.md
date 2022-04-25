@@ -459,8 +459,39 @@ En otras palabras sirve para distribuir la carga de trabajo entre distintos serv
 ### <span style="color:purple;"> _Notas de clase_ </span>
 Trabajamos en AWS con load balancers, TCP y EC2
 
-## <span style="color:violet;">Clase 21</span>
+## <span style="color:violet;">Clase 22</span>
 ----
 ### <span style="color:purple;"> _Notas del material_</span>
+COMPLETAR
 
-### <span style="color:purple;"> _Notas de clase_ </span>
+
+## <span style="color:violet;">Clase 23</span>
+----
+### <span style="color:purple;"> _Notas del material_</span>
+COMPLETAR
+
+## <span style="color:violet;">Clase 24</span>
+----
+Rendir FINAL
+
+## <span style="color:violet;">Clase 25</span>
+----
+### <span style="color:purple;"> _Notas del material_</span>
+Criptografia:</br>
+Tipos de algorimos criptograficos:
+- Transposicion: divide un msj, lo cifra en columnas y luego lo transcribe usando un nuevo orden de los caracteres dado por esas columnas. La cantidad de columnas es la clave que se utilizara para codificar y decodificar el mesnaje. 
+- Sustitucion: 
+- Ocultacion:
+- Esteganografia:
+
+
+## <span style="color:violet;">Clase 26</span>
+----
+### <span style="color:purple;"> _Notas del material_</span>
+COMPLETAR
+
+
+## <span style="color:violet;">Clase 27</span>
+----
+### <span style="color:purple;"> _Notas del material_</span>
+COMPLETAR
